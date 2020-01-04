@@ -1,0 +1,11 @@
+Test Number,Loco,Caboose,Block Output,Turnout Output,Status,
+1,2,1,"[2 N, 1 N]",3 R,Success ,forced turnout
+2,7,8,"[8R, 7R]",10 R,Success ,choice turnout right
+3,25,24,"[25N, 24N]",11 L,Success,choice turnout left
+4,1,11,"[1N, 11N]",--,Success,no turnout normal
+5,4,5,"[5R, 4R]",--,Success,no turnout reversed
+6,9,39,"[9N, 8N, 39R]","10R, 12L",Success,forced turnout right and choice turnout left
+7,2,13,"[13N, 2N]","2L, 3L",Success,joint turnout take turnout
+8,19,18,"[18N, 19N]",17R,Success,joint turnout dont take turnout
+9,24,15,"[15N, 28N, 24R]","5R, 11R",Success,"5 chioce turnout, 11 forced (or choice in opposite direction..?)"
+10,27,6,--,--,Search Failed ,train can't extend over more than 3 blocks (this example tries it with 4)
